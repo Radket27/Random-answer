@@ -43,7 +43,7 @@ int zart(int czas){
 
 
 int main(){
-    char* pytanie;
+    char* pytanie = (char*) malloc(sizeof(char)*256);
     printf("Write your question ('_' use this symbol if you have more then 1 word in your question):\n");
     scanf("%s",pytanie);
     printf("Now I'm looking for answer: %s\n",pytanie);
