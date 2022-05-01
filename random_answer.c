@@ -53,6 +53,6 @@ int main(){
 
     char* los = nazwa(a1);
     printf("The answer is: %s\n",los);
-
+    free(pytanie);
     return 0;
 }
